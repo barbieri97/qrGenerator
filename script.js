@@ -40,8 +40,6 @@ btnGerar.onclick = () => {
       text: texto,
       width: 256,
       height: 256,
-      colorDark: document.documentElement.getAttribute("data-theme") === "dark" ? "#ffffff" : "#000000",
-      colorLight: document.documentElement.getAttribute("data-theme") === "dark" ? "#0d1117" : "#ffffff",
       correctLevel: QRCode.CorrectLevel.H
     });
 
