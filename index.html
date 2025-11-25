@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerador de QR Code</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="top-bar">
+      <h1>Gerador de QR Code</h1>
+      <button id="toggle-theme" class="toggle-btn">🌙</button>
+    </div>
+
+    <textarea id="texto" placeholder="Digite ou cole o conteúdo aqui"></textarea>
+
+    <button id="gerar">Gerar QR Code</button>
+
+    <div id="qrcode"></div>
+
+    <button id="download" class="hidden">Baixar QR</button>
+
+    <p id="erro" class="erro hidden"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
